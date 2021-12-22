@@ -1,0 +1,42 @@
+.card-div-checar-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-div-checar-item{
+    font-size: .8rem;
+    margin-bottom: 3px;
+}
+
+
+.card-botoes-check{
+    display: flex;
+}
+
+.card-riscar-check{
+    width: 10px;
+    margin-left: 5px;
+    box-shadow: 0 0 2px black;
+    text-align: center;
+    border-radius: 4px;
+    background-image: radial-gradient(rgba(250, 250, 250, 0.549), transparent);
+    padding-right: 2px;
+}
+
+.card-riscar-check::before{
+    content: "-";
+}
+.card-apagar-check{
+    margin-left: 5px;
+    width: 10px;
+    margin-left: 5px;
+    box-shadow: 0 0 2px black;
+    text-align: center;
+    border-radius: 4px;
+    background-image: radial-gradient(rgba(207, 24, 24, 0.549), transparent);
+    padding-right: 2px;
+}
+
+.card-apagar-check::before{
+    content: "x";
+}

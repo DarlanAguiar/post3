@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet"> 
+   
+    
+    <title>Post-it</title>
+</head>
+<body>
+    
+    <header class="menu-deslizante">
+        <div class="area-digitavel">
+            
+            <textarea name="" data-titulo="nova-titulo" id="mensagen-titlo" cols="20" rows="1" class="input-padrao" placeholder="Título"></textarea>
+            
+            <textarea name="" data-mensagem="nova" id="mensagem" cols="20" rows="2" class="input-padrao " placeholder="Seu lembrete aqui..."></textarea>
+            <p class="aviso">*Este campo não pode ser vazio</p>
+            <div class="grupo-checar">
+                <input type="text" placeholder="lembrete check box" class="checar" data-inputChecar=""  id="checar">
+                <button data-botaoIncluir="" class="botao-incluir">incluir</button>
+            </div>
+            <div data-itensCheck="" class="itens-check">
+
+            </div>
+            <div class="div-data">
+                <label class="label-data" for="data">Data:</label>
+                <input class="data" id="data" type="date">
+            </div>
+
+            <div class="botoes-deslizante">
+                <button class="botao botao-salvar botao-deslizante" id="botaoSalvar">Salvar</button>
+                <button class="botao botao-cancelar botao-cancelar-verde  botao-deslizante">Cancelar</button>
+            </div>
+        </div>
+        
+    </header>
+
+
+
+
+ 
+
+    <div class="div-busca">
+        <input type="text" placeholder="Buscar" class="filtro">
+        <svg class="lupa" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs>
+            <style>
+
+            </style><style>.a,.b,.c{fill:none;}.b,.c{stroke:#98f5af;stroke-miterlimit:10;}.b{stroke-linecap:round;}.c{stroke-width:3px;}</style></defs>
+            <g id="icone">
+            <g  transform="translate(-968 74)"><g transform="translate(968 -74)"><rect class="a" width="24" height="24"/><circle class="b" cx="7.5" cy="7.5" r="7.5" transform="translate(3 2)"/><line class="c" x2="6.325" y2="6.325" transform="translate(15.359 15.359)"/></g></g>
+            </g>
+            </svg>
+    </div>
+
+    <button class="botao-adicionar botao-deslizante"></button>
+
+    <section class="container-cards" id="data-list">
+
+<!--         <div class="post-it">
+            <div>
+                <div class="xis botao-cancelar" data-id="18">X</div>
+                <h4>Compras</h4>
+                <p class="texto" data-id="18">2 bolacha 4 arroz</p>
+            </div>
+        </div>
+     -->
+    </section>
+
+    <footer class="rodape">
+        <a href="https://www.facebook.com/darlan.aguiar.165">
+            <p> Dr.Gelo &#129482; Software &#x2122; </p>
+        </a>
+    </footer>
+    <script src="js/index2.js" type="module"></script>
+    
+    
+</body>
+</html>
